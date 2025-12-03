@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.maincontent {
+    width: 400px;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background: linear-gradient(#2b4f96,#7C5A85, #e8a8c8);
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+.backbutton {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.content {
+    padding: 100px 24px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.photobox {
+    width: 80%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto 24px;
+    border-radius: 6px;
+}
+h1 {
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+    margin: 8px 0 12px;
+}
+p {
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    line-height: 1.4;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.MS3mascot {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 200px;
+}
