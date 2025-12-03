@@ -2,14 +2,19 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: linear-gradient(#2b4f96,#7C5A85, #e8a8c8);
 }
-
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .maincontent {
-    width: 400px;
-    max-width: 100%;
+    width: 100%;
+    max-width: 400px;
     min-height: 100vh;
     margin: 0 auto;
-    background: linear-gradient(#2b4f96,#7C5A85, #e8a8c8);
     color: white;
     position: relative;
     overflow: hidden;
@@ -23,7 +28,6 @@ html, body {
     font-size: 16px;
     font-family: "Inter", sans-serif;
 }
-
 .content {
     padding: 100px 24px 80px;
     display: flex;
@@ -31,7 +35,6 @@ html, body {
     align-items: center;
     text-align: center;
 }
-
 .photobox {
     width: 80%;
     max-width: 250px;
@@ -52,10 +55,24 @@ p {
     max-width: 320px;
     margin: 0 auto;
 }
-
 .MS3mascot {
     position: absolute;
     left: 0;
     bottom: -10px;
     width: 200px;
+}
+@media (min-width: 768px) {
+    body {
+        padding: 24px;
+    }
+    .maincontent {
+        min-height: 90vh;
+        border-radius: 24px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    p {
+        font-size: 15px;
+    }
 }
