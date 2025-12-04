@@ -8,18 +8,25 @@
     <script src="JS/bootstrap.js"></script>
 </head>
 
-<body>
-    <div class = "zoomed_map container-fluid">
-        <div class = "zoomed_point"></div>
-        <div class = "pop-up"></div>
+<body class="zoomed_map">
 
-        <div class = "info">
-            <div class = "container-fluid" style = "height :300px; background-color:aquamarine"></div>
-            <div class = "content">
-            </div>
-            <div class = "btn btn-lg btn-light px-5 py-3 fs-4"></div>
+    <div class="buffer container-fluid" style="height: 300px;"></div>
+    
+    <div class="pop-up"></div>  <!-- pop-up is inside zoomed_map -->
+
+    <footer class="info container-fluid d-flex flex-column align-items-center" 
+            style="background-color: #F8F8F8;">
+        <div class="image mt-3 mb-3"></div>
+        <div class = "content container text-center mb-3">
+            <h5>Exhibit 1</h5>
+            <h7>Exhibit one highlights the future of AI, consisting of inferences of what future laws would make AI ethical in addition of speculations of our future with AI!</h7>
         </div>
-    </div>
+        <div class="btn btn-lg btn-learn px-5 py-3 fs-4">
+            Learn More
+        </div>
+        
+    </footer>
+
 </body>
 
 </html>

@@ -36,6 +36,8 @@
     height: 230px;
 }
 
+
+
 .tip .container-fluid {
     display: flex;
     justify-content: center;
@@ -72,44 +74,62 @@ body {
 }
 
 .zoomed_map {
-    height: 880px;
-    width:1200px;
     align-items: right;
-    background-image: url(Images/Zoomed_Map.png);
+    background-image: url(Images/Zoom_Map.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: top;
+    position: relative;
     overflow: hidden;
     position:relative;
 }
 
-.zoomed_point {
-    background-image:url(Images/Point.png);
-    height:80px;
-    width:60px;
-    background-size: 300%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    top: 25%;
-    left: 15%;
-}
+
 .pop-up {
+    position: relative;
     height: 180px;
     width: 200px;
     background-image: url(Images/Pop_up.png);
     background-size: contain;
-    background-repeat: no-repeat; 
-    left: 90%;
-    top: 500px;
+    background-repeat: no-repeat;
+    bottom: -10px;
+    left: 10%;
 }
+
 
 .info {
     border-radius: 50px 50px 0 0;
+    height: 500px;
     background-color: #F8F8F8;
-    top: 90%;
-    height:500px
 }
-.content {
 
+.content {
+    max-width: 500px;
+    color: #292C2D;
+    font-size: 18px;
+}
+
+.btn-learn {
+    background-color: #292C2D !important;
+    color: #CD9AB1 !important;
+    width: 300px;
+    height: 70px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+
+.btn-learn:hover {
+    background-color: #3A3D40; 
+    color: #E1A7C0; 
+}
+
+.image {
+    height:150px;
+    width: 350px;
+    background-color:aquamarine;
+}
+
+.content {
+    max-width: 410px;
 }
