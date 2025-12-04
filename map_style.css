@@ -98,6 +98,9 @@ body {
 
 
 .info {
+    border-width: 1.5px;
+    border-color: #e8c7c7;
+    border-style:solid;
     border-radius: 50px 50px 0 0;
     height: 500px;
     background-color: #F8F8F8;
@@ -127,7 +130,12 @@ body {
 .image {
     height:150px;
     width: 350px;
-    background-color:aquamarine;
+    background-image: url(Photo.png);
+    background-position: center;
+    background-size: contain;
+    display:inline-block;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
 .content {
